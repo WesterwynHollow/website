@@ -1,0 +1,231 @@
+@import url(./reset.css);
+@import url(./grid.css);
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,700");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+body, html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fefefe; }
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 700; }
+
+h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #333; }
+
+h5 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333; }
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666; }
+
+a {
+  text-decoration: none;
+  color: #F1C40F; }
+  a:hover {
+    color: #CAA40D; }
+
+img {
+  display: block;
+  width: 100%; }
+
+hr {
+  max-width: 320px;
+  height: 1px;
+  margin: 50px auto;
+  border: 0;
+  background: #ccc; }
+
+.no-margin {
+  margin: 0; }
+
+.padding {
+  padding-bottom: 20px; }
+
+.site-inner {
+  position: relative;
+  z-index: 2; }
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%; }
+
+.btn {
+  padding: 11px 30px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  background: #F1C40F;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer; }
+  .btn:hover {
+    background: #CAA40D; }
+
+.site-header {
+  padding: 40px 0; }
+
+.logo {
+  max-width: 250px; }
+
+.shipping-note {
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff; }
+
+.nav {
+  display: block; }
+
+.nav-link {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff; }
+
+label {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff; }
+
+.select-wrapper {
+  border: 1px solid #d3dbe2;
+  border-radius: 3px;
+  box-sizing: border-box;
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  vertical-align: bottom; }
+  .select-wrapper select {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 10px 15px;
+    padding-right: 32px;
+    border: 0;
+    width: 100%;
+    color: #4C4C4C;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer; }
+    .select-wrapper select:focus {
+      outline: 0; }
+  .select-wrapper .select-icon {
+    cursor: pointer;
+    display: block;
+    fill: #798c9c;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -6px;
+    pointer-events: none;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle; }
+
+.product-price {
+  font-size: 24px;
+  line-height: 40px;
+  color: #fff; }
+
+.shopify-secure-badge {
+  display: inline-block; }
+  .shopify-secure-badge img {
+    display: block; }
+
+.shopify-secure-text {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  color: #fff; }
+
+.site-images {
+  padding-bottom: 120px; }
+  .site-images .slick-slide {
+    padding: 3px; }
+    .site-images .slick-slide:hover {
+      cursor: pointer;
+      opacity: 0.75; }
+
+.site-faq {
+  padding-bottom: 60px; }
+  .site-faq p {
+    margin-bottom: 40px; }
+
+.site-footer {
+  padding: 60px 0;
+  background: #4F7C66; }
+
+.westerwyn-logo {
+  display: inline-block;
+  max-width: 200px;
+  margin-bottom: 20px;
+  opacity: 0.5; }
+
+.westerwyn-text {
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  opacity: 0.5; }
+
+.site-footer-bottom {
+  background: #395849; }
+  .site-footer-bottom p {
+    margin: 0;
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.5; }
+
+.home-landing-page {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  background: #395849; }
+
+.home-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  display: inline-block;
+  max-width: 250px;
+  transform: translate(-50%, -50%); }
+
+@media only screen and (max-width: 768px) {
+  .site-top {
+    background: #4F7C66; }
+  .logo {
+    margin: 0 auto; } }
