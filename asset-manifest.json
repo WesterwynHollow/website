@@ -1,12 +1,14 @@
 {
-  "main.css": "static/css/main.104d36a8.css",
-  "main.css.map": "static/css/main.104d36a8.css.map",
-  "main.js": "static/js/main.7738efa0.js",
-  "main.js.map": "static/js/main.7738efa0.js.map",
+  "main.css": "static/css/main.7c7e6468.css",
+  "main.css.map": "static/css/main.7c7e6468.css.map",
+  "main.js": "static/js/main.1ad6c8d0.js",
+  "main.js.map": "static/js/main.1ad6c8d0.js.map",
+  "static/media/background-dragon.svg": "static/media/background-dragon.15d0df58.svg",
   "static/media/background.svg": "static/media/background.1ceac157.svg",
   "static/media/badge-cards.svg": "static/media/badge-cards.3038d685.svg",
   "static/media/badge-shipping.svg": "static/media/badge-shipping.3cc90fac.svg",
   "static/media/badge-shopify.svg": "static/media/badge-shopify.81b15822.svg",
+  "static/media/logo-dragon.svg": "static/media/logo-dragon.375441de.svg",
   "static/media/logo.svg": "static/media/logo.ef8c5f3e.svg",
   "static/media/select-icon.svg": "static/media/select-icon.0718cab7.svg",
   "static/media/westerwynhollow.svg": "static/media/westerwynhollow.c7764c1c.svg"
